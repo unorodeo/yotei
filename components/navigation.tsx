@@ -1,5 +1,6 @@
 import { Brand } from "./ui/brand";
 import Link from "next/link";
+import { NavigationList } from "./navigation-list";
 import { ThemeToggle } from "./theme-toggle";
 import { buttonVariants } from "./ui/button";
 
@@ -10,6 +11,7 @@ export function Navigation() {
 			<nav className="flex flex-row items-center justify-between px-4 mx-auto max-w-7xl h-14 lg:px-8">
 				<Brand />
 				<div className="hidden lg:flex lg:items-center lg:gap-2">
+					<NavigationList />
 					<Link
 						href={"/about"}
 						className={buttonVariants({
