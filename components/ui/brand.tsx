@@ -1,4 +1,3 @@
-import { Icons } from "./icons";
 import Link from "next/link";
 import { cn } from "@/lib/cn";
 import { focusRing } from "@/lib/focuses";
