@@ -9,9 +9,9 @@ import { cn } from "@/lib/cn";
 export const metadata: Metadata = {
 	title: {
 		template: "%s | The simple token generator for design systems.",
-		default: "Yotei | Generates tokens for your desgin system.",
+		default: "Yotei | Generate tokens for your desgin system.",
 	},
-	description: "Generates tokens for your desgin system.",
+	description: "Generate tokens for your desgin system.",
 };
 
 export default function RootLayout({
