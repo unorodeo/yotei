@@ -1,4 +1,3 @@
-import { Brand } from "@/components/ui/brand";
 import { Section } from "@/components/ui/section";
 
 interface Content {

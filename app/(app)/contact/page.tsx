@@ -1,9 +1,7 @@
-import { CopyIcon } from "lucide-react";
 import Link from "next/link";
 import { Section } from "@/components/ui/section";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/cn";
-import { focusRing } from "@/lib/focuses";
 
 export default function Contact() {
   return (
