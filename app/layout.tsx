@@ -27,7 +27,7 @@ export default function RootLayout({
     >
       <body
         className={cn(
-          "font-geist-sans antialiased",
+          "relative font-geist-sans antialiased",
           geistSans.variable,
           geistMono.variable,
           auroraPro.variable
