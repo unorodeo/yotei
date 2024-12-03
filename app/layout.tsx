@@ -9,10 +9,10 @@ import { siteConfig } from "@/site.config";
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | The simple theme generator for shadcn/ui themes.",
-    default: `${siteConfig.name} | Create and manage shadcn/ui themes with ease.`,
+    template: "%s | The simple theme generator.",
+    default: `${siteConfig.name} | Create and manage themes with ease.`,
   },
-  description: "Create and manage shadcn/ui themes with ease.",
+  description: "Create and manage themes with ease.",
 };
 
 export default function RootLayout({
