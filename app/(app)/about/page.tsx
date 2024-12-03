@@ -9,7 +9,7 @@ const WHY_CHOOSE_US: Content[] = [
   {
     reason: "Flexibility",
     explanation:
-      "Yoteeei gives you full control to either extend existing Shadcn/UI themes or create entirely new ones.",
+      "Yoteeei gives you full control to either extend existing themes or create entirely new ones.",
   },
   {
     reason: "Ease of Use",
@@ -19,17 +19,17 @@ const WHY_CHOOSE_US: Content[] = [
   {
     reason: "Community-Driven",
     explanation:
-      "As a contribution to the Shadcn/UI ecosystem, Yoteeei aligns with the open-source spirit, fostering creativity and innovation",
+      "Yoteeei aligns with the open-source spirit, fostering creativity and innovation",
   },
   {
     reason: "Seamless Integration",
     explanation:
-      "Enjoy smooth, hassle-free integration with Shadcn/UI, allowing you to focus on building without technical interruptions.",
+      "Enjoy smooth, hassle-free integrations, allowing you to focus on building without technical interruptions.",
   },
   {
     reason: "Independence",
     explanation:
-      "Yoteeei is not bound by official limitations, offering a truly customizable experience outside the constraints of Shadcn/UI's core design.",
+      "Yoteeei is not bound by official limitations, offering a truly customizable experience outside the constraints of your core design.",
   },
 ];
 
@@ -37,7 +37,7 @@ const HOW_IT_WORKS: Content[] = [
   {
     reason: "Extend Existing Themes",
     explanation:
-      "Easily add custom components, adjust colors, typography, and layouts to any Shadcn/UI theme.",
+      "Easily add custom components, adjust colors, typography, and layouts to any theme.",
   },
   {
     reason: "Create Custom Themes",
@@ -56,13 +56,13 @@ export default function About() {
     <>
       <Section className="py-6 max-w-3xl [&>p]:text-foreground/90">
         <p className="text-lg">
-          Welcome to <span className="font-bold uppercase">Yoteeei</span>, your go-to
-          tool for creating and managing shadcn/ui themes with ease.
+          Welcome to <span className="font-bold uppercase">Yoteeei</span>, your
+          go-to tool for creating and managing themes with ease.
         </p>
         <p className="text-lg">
           A versatile extension tool designed to help you enhance and customize
-          Shadcn/UI themes. Whether you are looking to modify an existing theme
-          or build one from scratch.
+          themes. Whether you are looking to modify an existing theme or build
+          one from scratch.
         </p>
       </Section>
       <Section className="py-6 max-w-3xl [&>p]:text-foreground/90">
@@ -83,7 +83,7 @@ export default function About() {
           </ul>
         </div>
       </Section>
-      <Section className="py-6 max-w-3xl">
+      <Section className="max-w-3xl py-6">
         <h2>How It Works</h2>
         <div className="mt-6">
           <ol className="md:list-decimal [&>li]:pl-4 space-y-4">
@@ -103,7 +103,7 @@ export default function About() {
       </Section>
       <Section className="grid place-items-center">
         <p className="muted">
-          Yoteeei is an independent tool created to enhance the Shadcn/UI
+          Yoteeei is an independent tool created to enhance the themeing
           experience, contributing to the broader community.
         </p>
       </Section>
