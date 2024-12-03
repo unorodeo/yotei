@@ -1,7 +1,12 @@
-import { Brand } from "./ui/brand";
+import { Brand } from "@/components/ui/brand";
 import Link from "next/link";
+<<<<<<< Updated upstream
 import { ThemeToggle } from "./theme-toggle";
 import { buttonVariants } from "./ui/button";
+=======
+import { ThemeToggle } from "@/components/theme-toggle";
+import { buttonVariants } from "@/components/ui/button";
+>>>>>>> Stashed changes
 
 export function Navigation() {
 	const isDev = process.env.NODE_ENV === "development";
