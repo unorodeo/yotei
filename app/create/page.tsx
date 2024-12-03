@@ -1,7 +1,11 @@
+import { Panel } from "@/components/core/panel";
+import { Preview } from "@/components/core/preview";
+
 export default function Yotei() {
   return (
-    <>
-      <h1>Welcome to Yotei</h1>
-    </>
+    <section>
+      <Panel />
+      <Preview />
+    </section>
   );
 }
