@@ -4,9 +4,8 @@ import { ThemeToggle } from "@/components/theme-toggle";
 import { buttonVariants } from "@/components/ui/button";
 
 export function Navigation() {
-  const isDev = process.env.NODE_ENV === "development";
   return (
-    <header className="sticky inset-x-0 top-0 z-50 bg-background/60 backdrop-blur-md border-b">
+    <header className="sticky inset-x-0 top-0 z-50 border-b bg-background/60 backdrop-blur-md">
       <nav className="flex flex-row items-center justify-between px-4 mx-auto max-w-7xl h-14 lg:px-8">
         <Brand />
         <div className="hidden lg:flex lg:items-center lg:gap-2">
@@ -30,17 +29,15 @@ export function Navigation() {
           >
             Contact
           </Link>
-          {isDev ? (
-            <Link
-              href={"/studio"}
-              className={buttonVariants({
-                size: "sm",
-                className: "text-base",
-              })}
-            >
-              Studio
-            </Link>
-          ) : null}
+          <Link
+            href={"/create"}
+            className={buttonVariants({
+              size: "sm",
+              className: "text-base",
+            })}
+          >
+            Create
+          </Link>
           <ThemeToggle />
         </div>
       </nav>
