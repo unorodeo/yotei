@@ -54,7 +54,7 @@ const HOW_IT_WORKS: Content[] = [
 export default function About() {
   return (
     <>
-      <Section className="py-6 max-w-3xl [&>p]:text-foreground/90">
+      <Section className="py-6 max-w-3xl [&>p]:text-foreground/90 mt-24">
         <p className="text-lg">
           Welcome to <span className="font-bold uppercase">Yoteeei</span>, your
           go-to tool for creating and managing themes with ease.
@@ -68,7 +68,7 @@ export default function About() {
       <Section className="py-6 max-w-3xl [&>p]:text-foreground/90">
         <h2>Why Choose Us?</h2>
         <div className="mt-6">
-          <ul className="md:list-decimal [&>li]:pl-4 space-y-4">
+          <ul className="md:list-decimal [&>li]:ps-4 space-y-4">
             {WHY_CHOOSE_US.map((item) => (
               <li
                 key={item.reason}
@@ -86,7 +86,7 @@ export default function About() {
       <Section className="max-w-3xl py-6">
         <h2>How It Works</h2>
         <div className="mt-6">
-          <ol className="md:list-decimal [&>li]:pl-4 space-y-4">
+          <ol className="md:list-decimal [&>li]:ps-4 space-y-4">
             {HOW_IT_WORKS.map((item) => (
               <li
                 key={item.reason}

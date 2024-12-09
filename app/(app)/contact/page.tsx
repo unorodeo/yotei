@@ -6,7 +6,7 @@ import { cn } from "@/lib/cn";
 export default function Contact() {
   return (
     <>
-      <Section>
+      <Section className="mt-24 md:flex md:flex-col md:items-center">
         <div className="mb-6">
           <h1>Wanna reach out to us?</h1>
         </div>
