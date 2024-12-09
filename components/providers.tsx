@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import { TailwindIndicator } from "@/components/ui/tailwindcss-indicator";
-import { ThemeProvider } from "./themes";
+import { ThemeProvider } from "@/components/themes";
 
 export function Providers({ children }: { children: ReactNode }) {
 	return (
@@ -11,7 +11,7 @@ export function Providers({ children }: { children: ReactNode }) {
 			disableTransitionOnChange
 		>
 			{children}
-			<TailwindIndicator position="left" />
+			<TailwindIndicator position="right" />
 		</ThemeProvider>
 	);
 }
