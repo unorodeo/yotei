@@ -7,7 +7,7 @@ export default function Home() {
         <div className="flex justify-center">
           <div
             className={
-              "inline-flex items-center p-2 text-sm text-muted-foreground hover:text-foreground transition-colors select-none bg-background border border-border rounded-lg"
+              "inline-flex items-center p-2 text-sm text-foreground select-none bg-background border border-border rounded-lg"
             }
           >
             Currently in &mdash; beta
